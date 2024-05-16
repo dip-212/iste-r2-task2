@@ -1,0 +1,269 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: black;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: black;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 17rem;
+    margin-bottom: 6rem;
+
+}
+.middlenav{
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+}
+.firstpart{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+.secondpart button{
+    background-color: #323132;
+    border: 1px solid white;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+}
+.secondpart button:hover{
+    cursor: pointer;
+}
+.firstpage{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    height: 500px;
+    background-color: black;
+}
+.heroimage img{
+    position: relative;
+    top: -300px;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+    gap:2.3rem;
+}.herotext2{
+    font-size: 2.2rem;
+}
+.herotext5 button{
+    background-color: #323132;
+    height: 3rem;
+    width: 15rem;
+    border: 1px white solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.nobgc{
+    background: #323132;
+}
+.nobgc img{
+    background: #323132;
+}
+.nobgc b{
+    background: #323132;
+}
+.companylogo{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid white; */
+    height: 100px;
+    gap: 7rem;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.secondboxitems{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+.secondbox{
+    display: flex;
+    gap: 70px;
+}
+.secondpage{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+}
+.secondheading img{
+    height: 120px;
+}
+.move{
+    position: relative;
+    left: 100px;
+}
+.move2{
+    position: relative;
+    left: 20px;
+} 
+.secondboximage img{
+    height: 400px;
+    width: 400px;
+}
+.thirdpage{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.thirdbox{
+    display: flex;
+    gap: 3rem;
+}
+.thirdbox button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323132;
+    gap: 10px;
+    width: 8rem;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+.thirdlogo img{
+    height: 100px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.thirdboxcontent{
+    display: flex;
+    align-items: center;
+}
+.fourthbox button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 10px;
+    width: 8rem;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+.fourthpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323132;
+    gap: 80px;
+    padding-top:85px ;
+    padding-bottom:85px ;
+}
+.fourthcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #323132;
+}
+#music{
+    font-size: 2rem;
+}
+.fourthbox{
+    background-color: #323132;
+}
+.fourthimage img{
+    /* background-color: #323132; */
+    border-radius: 50px;
+    padding: 40px;
+}
+.fourthimage{
+    background-color: #323132;
+}
+.lastpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastimage img{
+    height: 250px;
+    width: 200px;
+}
+.lastcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.lastitembox{
+    display: flex;
+    gap: 80px;
+}
+.lastimages{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.lastheadinglogo{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.lastheadinglogo img{
+    height: 200px;
+}
+.lastimage{
+    padding-bottom: 1rem;
+}
+.content{
+    display: flex;
+    gap: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-top: 1px solid white;
+}
+.bar{
+    height: 4rem;
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+    background-color: #323132;
+    gap: 10px;
+    border-radius: 7px;
+}
+.smallheading{
+    font-size: 20px;
+}
+.inputbar{
+    height: 50%;
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+}
+.bar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 60%;
+    width: 8rem;
+    border-radius: 7px;
+    border: 0.4px solid white;
+}
+.footerbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
